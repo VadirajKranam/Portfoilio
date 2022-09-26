@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Butcherman&family=Comfortaa:wght@600&family=Creepster&family=Eater&family=Kalam:wght@300;400&family=Merienda:wght@700&family=Montserrat:wght@200;400;646&family=Nosifer&family=Nunito+Sans:ital,wght@1,300;1,800&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Poppins:wght@400;600&family=Roboto:wght@700&family=Source+Sans+Pro:wght@400&family=Work+Sans&display=swap');
+.name{
+    font-size: 1.5rem;
+    font-family: Montserrat;
+}
+nav{
+    height: 6rem;
+    width: 100.4vw;
+    background-color: #fff;
+    border: 1px solid white;
+    overflow-x: hidden;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.head_left{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 20rem;
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+}
+.head_right{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 25rem;
+  margin-top: 1.5rem;
+  margin-right: 4rem;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+ justify-content:space-between;
+ align-items: center;
+ text-align: center;
+ font-family:Montserrat;
+ background: url('https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg');
+}
+#intro{
+  margin-top: 3rem;
+}
+.button{
+  font-family:Montserrat;
+  font-size: 16px;
+  display: inline-block;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  font-weight:500;
+  background-color:#facf0f;
+  color: #4f492e;
+  text-decoration: none;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  box-shadow:   91px 91px 144px 0px rgba(0,0,0,0.16);
+  backdrop-filter: blur(2px);
+}
+.about h1{
+  font-family: Source Sans Pro;
+  text-align: center;
+  letter-spacing: 2px;
+}
+#line{
+  display: inline-block;
+  width: 25px;
+  height: 4px;
+  background-color: #facf0f;
+  border-radius: 10px;
+  border: none;
+  margin-left: 49%;
+  margin-top: -4rem;
+}
+#info{
+  font-family:Montserrat;
+  text-align: center;
+}
+.me_skills{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+}
+.me{
+  font-family:Source Sans Pro;
+}
+.link{
+  color: #facf0f;
+}
+.skills{
+  font-family: Montserrat;
+}
+.skills .h2{
+  margin-top: -11rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+.skills div:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spans{
+  margin-top: rem;
+}
+.skill{
+  display: inline-block;
+  background-color: #e7e7e7;
+  color: #989898;
+  width: 6.7rem;
+  height: 1.5rem;
+  text-align: center;
+  padding-top:0.5rem;
+  border-radius: 5px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.head_right_forPhone{
+  display: none;
+}
+.hum{
+  display: none;
+}
+@media (max-width:1250px)
+{
+
+  .me_skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .me{
+    line-height: 1.5;
+  }
+  .skills{
+    margin-left: -2rem;
+    margin-top: 10rem;
+  }
+  .button{
+    margin-top: 1.5rem;
+  }
+  .skill{
+    display: inline-block;
+    background-color: #e7e7e7;
+    color: #989898;
+    width: 4rem;
+    height: 1.3rem;
+    font-size: 10px;
+    text-align: center;
+    padding-top:0.5rem;
+    border-radius: 5px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  br{
+    display: none;
+  }
+  .head_right{
+    display: none;
+  }
+  .head_right_forPhone{
+    display:block;
+  }
+  .head_right_forPhone ul{
+    display: none;
+  }
+  .hum{
+    display:inline-block;
+    height: 2rem;
+    width: 4rem;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+  }
+  .uls{
+    display: none;
+  }
+}
+.humDisplay{
+  display: inline-block;
+}
